@@ -4,7 +4,7 @@ A high-performance, secure RESTful API built with **FastAPI** to power the Sirsi
 
 ## 🚀 Live Demo
 - **Interactive API Docs (Swagger):** [https://sirsi-sambhrama-backend.onrender.com/docs](https://sirsi-sambhrama-backend.onrender.com/docs)
-- **Frontend Live Site:** [Your-Netlify-URL-Here]
+- **Frontend Live Site:** [https://playful-cranachan-09e92b.netlify.app/]
 
 ## 🛠️ Tech Stack
 - **Framework:** FastAPI (Python 3.12+)
@@ -30,26 +30,26 @@ A high-performance, secure RESTful API built with **FastAPI** to power the Sirsi
    ```bash
    git clone [https://github.com/PrajwalRBhat/Sirsi_Sambhrama_Backend.git](https://github.com/PrajwalRBhat/Sirsi_Sambhrama_Backend.git)
    cd Sirsi_Sambhrama_Backend
-Create a virtual environment:
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
+2. **Create a virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-```bash
-pip install -r requirements.txt
-Set up environment variables:
-Create a .env file in the root:
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+4. **Set up environment variables:**
+   Create a .env file in the root:
 
-Code snippet
-SUPABASE_URL=your_supabase_url
-SUPABASE_KEY=your_supabase_anon_key
-JWT_SECRET=your_secure_random_secret
-MAIL_USERNAME=your_gmail@gmail.com
-MAIL_PASSWORD=your_16_digit_app_password
-ADMIN_INVITE_CODE=Sirsi@2026
-Start Development Server:
+   ```Code snippet
+   SUPABASE_URL=your_supabase_url
+   SUPABASE_KEY=your_supabase_anon_key
+   JWT_SECRET=your_secure_random_secret
+   MAIL_USERNAME=your_gmail@gmail.com
+   MAIL_PASSWORD=your_16_digit_app_password
+   ADMIN_INVITE_CODE=Sirsi@2026
 
-```bash
-uvicorn main:app --reload
+5. **Start Development Server:**
+   ```bash
+   uvicorn main:app --reload
